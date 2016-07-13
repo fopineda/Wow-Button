@@ -1,0 +1,48 @@
+/*
+<!--- Created by: Felipe O Pineda --->
+<!--- fopineda95@gmail.com --->
+<!--- Code away :) --->
+*/
+
+.row .col-sm-4{
+  background-color: white;
+  height: 100px;
+}
+
+.btn-button-name, .btn-button-name:link, .btn-button-name:visited {
+  background-color: transparent;
+  border-radius: 0;
+  color: #0067B1;
+  border: 2px solid #6f5499;
+  position: relative;
+  top: 20%;
+  left: 30%;
+}
+
+
+
+.btn-button-name:active, .btn-button-name:hover {
+  background-color: #0067B1;
+  color: #fff
+}
+
+.btn-button-name.btn-lg {
+  border: 3px solid #0067B1;
+  transition: background-color,color 0.3s linear;
+}
+
+
+/* Uncomment below just to see the grid setup around the buttons */
+/*
+.row #box1 {
+  border-style: solid
+}
+
+.row #box2 {
+  border-style: solid
+}
+
+.row #box3 {
+  border-style: solid
+}
+*/
